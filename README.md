@@ -25,6 +25,8 @@ This simple application follows the "hello, world" [tutorial](https://www.cockro
    python -m pip install --upgrade pip
    ```
 
+   Then, continue installing depencencies:
+
    ```
    python -m pip install django-cockroachdb
    pip install python-dotenv
@@ -36,4 +38,4 @@ This simple application follows the "hello, world" [tutorial](https://www.cockro
    python manage.py runserver 0.0.0.0:8000
    ```
 
-or another port if 8000 is used by another application.
+   or another port if 8000 is used by another application.
