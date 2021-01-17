@@ -6,34 +6,34 @@ This simple application follows the "hello, world" [tutorial](https://www.cockro
 
 0. Set up virtual environment
 
-```
-python -m venv env
-env\Scripts\activate (Windows)
-source env/bin/activate (Mac)
-```
+   ```
+   python -m venv env
+   env\Scripts\activate (Windows)
+   source env/bin/activate (Mac)
+   ```
 
 1. Install dependencies (django etc)
 
-```
-python -m pip install django
-pip install psycopg2-binary
-```
+   ```
+   python -m pip install django
+   pip install psycopg2-binary
+   ```
 
-> Note: Might need to upgrade pip if getting error installing psycopg2-binary
+   > Note: Might need to upgrade pip if getting error installing psycopg2-binary
 
-```
-python -m pip install --upgrade pip
-```
+   ```
+   python -m pip install --upgrade pip
+   ```
 
-```
-python -m pip install django-cockroachdb
-pip install python-dotenv
-```
+   ```
+   python -m pip install django-cockroachdb
+   pip install python-dotenv
+   ```
 
 2. Start application
 
-```
-python manage.py runserver 0.0.0.0:8000
-```
+   ```
+   python manage.py runserver 0.0.0.0:8000
+   ```
 
 or another port if 8000 is used by another application.
